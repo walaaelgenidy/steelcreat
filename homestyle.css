@@ -434,12 +434,17 @@ img::-moz-selection {
   transition: all ease 0.5s;
   opacity: 0;
   background: #fe9136;
+  border-radius:9px;
+  border:1px solid #bbb;
+
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
 	transform: scale(1.1);
 	animation: steps(1.1);
   opacity: 1;
+    border-radius:9px;
+    border:1px solid #bbb;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
